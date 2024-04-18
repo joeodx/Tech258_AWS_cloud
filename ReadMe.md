@@ -26,6 +26,17 @@ We are going to show you step by step how to deploying a virtual machine (ec2-in
 
 ![](pictures/screenshot3.jpg)
 
-### Step 4 - Choose an Amazon Machine Image (AMI): 
+### Step 4 - Name and choose an Amazon Machine Image (AMI): 
 
-In the "Step 1: Choose an Amazon Machine Image (AMI)" section, select the AMI that corresponds to the operating system and software configuration you want for your virtual machine. AWS provides a variety of pre-configured AMIs for different purposes, such as Amazon Linux, Ubuntu, Windows Server, etc. Choose the one that best fits your needs and click "Select".
+* In the name and tags section give your virtual machine a name. Then In the Choose an Amazon Machine Image (AMI)" section, select the AMI that corresponds to the operating system and software configuration you want for your virtual machine. AWS provides a variety of pre-configured AMIs for different purposes, such as Amazon Linux, Ubuntu, Windows Server, etc. 
+ In our case we are going to choose amazon Linux free tier option
+<br> 
+
+
+* *Machine images, often referred to as Amazon Machine Images (AMIs) in the context of AWS, are pre-configured templates that contain the necessary information to launch virtual servers, known as instances, in the cloud.*
+
+![](pictures/screenshot4.jpg)
+
+### Step 5 - Choose an instance type 
+
+* Choose an Instance Type" section, select the instance type that suits your workload requirements. Instance types vary in terms of CPU, memory, storage, and networking capacity.In our case we will choose  After selecting the instance type, click "Next: Configure Instance Details".
