@@ -122,4 +122,11 @@ sudo apt upgrade -y
 sudo apt  install nginx -y
 ````
 
+* *Nginx (pronounced "engine-x") is a popular open-source web server, reverse proxy server, and load balancer. It's known for its high performance, stability, and scalability, making it widely used for serving web content, hosting websites, and balancing traffic across multiple servers.*
+
+## Step 12 - Well done!
+
+* You should see a active running comment in your terminal that shows it is running. 
+If you put your EX2 public IP address into the URL of your web browser, you can see your vm being hosted 
+![]()
 
