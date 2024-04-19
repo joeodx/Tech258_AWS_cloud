@@ -31,20 +31,71 @@ mkdir [directory_name]
 ```python
 cp [source] [destination]
 ```
-## Command 2: 'cd'
+## Command 5: 'rm - r'
 
-* Changes the current directory.
+* Removes files or directories.
+
+```python
+rm -r [directory]
+```
+
+## Command 6: 'curl'
+
+* Transfers data from or to a server, supporting various protocols including HTTP, HTTPS, FTP, etc. 
+
+````python
+curl [options] [URL]
+
+````
+
+## Command 7: 'mv'
+
+* Moves a file or renames it.
 
 ```python
 cd [directory]
 ```
 
-## Command 3: 'mkdir'
+## Command 8: 'touch'
 
-* Creates a new directory 
+* Creates an empty file.
 
 ````python
-mkdir [directory_name]
+touch [filename]
 ````
+
+## Command 9: 'nano'
+
+* Opens a file in the Nano text editor for editing.
+
+```python
+nano [filename]
+```
+
+## Command 10: 'cat'
+
+* Displays the contents of a file.
+
+````python
+cat [filename]
+````
+
+## Command 11: 'head'
+
+* Prints the top lines of a file.
+
+```python
+head -n [number_of_lines] [filename]
+```
+
+## Command 12: 'tail'
+
+* Prints the last lines of a file
+
+````python
+tail -n [number_of_lines] [filename]
+````
+
+
 
 
