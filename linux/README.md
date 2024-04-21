@@ -142,11 +142,22 @@ Nginx (pronounced "engine-x") is a popular open-source web server and reverse pr
 
 ![](https://miro.medium.com/v2/resize:fit:1200/0*mjG1YdoT7xPcnznN.jpg)
 
-## Command 4: 'sudo install and restart'
+# Linux permission forms 
+*********************************
 
+* Linux permissions are a system of access control that regulate who can read, write, or execute files and directories. Each file and directory is associated with three sets of permissions: one for the owner of the file, one for the group the file belongs to, and one for everyone else. These permissions are represented by three characters each, indicating whether the respective user or group has read ('r'), write ('w'), or execute ('x') permissions. By setting these permissions appropriately, Linux administrators can restrict or grant access to files and directories, ensuring data security and integrity within the system. Additionally, permissions can be further refined using special modes such as the setuid, setgid, and sticky bit to control file execution and inheritance of group ownership.
 
+Long form, as letters (rw-r--r--) short form, as numbers (777)
+https://chmod-calculator.com/
 
+# Environmental variables commands
+**********************************
 
+* Shows the environmental variables 
+
+```python
+printenv
+```
 
 
 
