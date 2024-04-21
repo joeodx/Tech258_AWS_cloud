@@ -1,7 +1,9 @@
 # Linux Command Reference
-
+************************************************************
 ![LINUX](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbiV23uy6NDy1C85mVlwH4HXgWz4ebcwCYwqgzS3PvIQ&s)
 
+# Commands to download, move, copy and remove existing files and directories...
+*************************
 ## Command 1: 'ls'
 
 * Lists directory contents.
@@ -94,6 +96,24 @@ head -n [number_of_lines] [filename]
 
 ````python
 tail -n [number_of_lines] [filename]
+````
+
+# Commands to interact, update and install packages in linux...
+*************************************
+
+## Command 1: 'sudo apt update'
+
+updates current packages
+```python
+sudo apt update -y
+```
+
+## Command 2: 'sudo install'
+
+Install packages e.g like tree 
+
+````python
+sudo snap install tree
 ````
 
 
