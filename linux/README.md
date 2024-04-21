@@ -98,23 +98,56 @@ head -n [number_of_lines] [filename]
 tail -n [number_of_lines] [filename]
 ````
 
-# Commands to interact, update and install packages in linux...
+# Commands to interact, update, install packages and automate in linux...
 *************************************
 
 ## Command 1: 'sudo apt update'
 
-updates current packages
+* Updates current packages
 ```python
 sudo apt update -y
 ```
 
 ## Command 2: 'sudo install'
 
-Install packages e.g like tree 
+* Install packages e.g like tree 
 
 ````python
 sudo snap install tree
 ````
+
+* what is tree? 
+
+tree allows you to see a diagram of your files and directories : 
+
+![](https://i.stack.imgur.com/VZxA1.png)
+
+## Command 3: 'install nginx and rtestart '
+
+* Install nginx
+```python
+sudo apt install nginx -y
+```
+* Restart nginx
+```python
+sudo systemctl restart nginx
+```
+* What is nginx?
+
+
+Nginx (pronounced "engine-x") is a popular open-source web server and reverse proxy server software. Originally developed by Igor Sysoev in 2004, Nginx is known for its high performance, stability, and low resource consumption, making it a preferred choice for serving web content, handling high-traffic websites, and acting as a reverse proxy for various applications.
+
+![](https://miro.medium.com/v2/resize:fit:1200/0*mjG1YdoT7xPcnznN.jpg)
+## Command 4: 'sudo install and restart'
+
+* Install packages e.g like tree 
+
+````python
+sudo snap install tree
+````
+
+
+
 
 
 
