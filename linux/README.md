@@ -122,7 +122,7 @@ tree allows you to see a diagram of your files and directories :
 
 ![](https://i.stack.imgur.com/VZxA1.png)
 
-## Command 3: 'install nginx and rtestart '
+## Command 3: 'install nginx, restart and enable'
 
 * Install nginx
 ```python
@@ -132,19 +132,19 @@ sudo apt install nginx -y
 ```python
 sudo systemctl restart nginx
 ```
+* Enable nginx
+```python
+sudo systemctl enable nginx
+```
 * What is nginx?
-
 
 Nginx (pronounced "engine-x") is a popular open-source web server and reverse proxy server software. Originally developed by Igor Sysoev in 2004, Nginx is known for its high performance, stability, and low resource consumption, making it a preferred choice for serving web content, handling high-traffic websites, and acting as a reverse proxy for various applications.
 
 ![](https://miro.medium.com/v2/resize:fit:1200/0*mjG1YdoT7xPcnznN.jpg)
+
 ## Command 4: 'sudo install and restart'
 
-* Install packages e.g like tree 
 
-````python
-sudo snap install tree
-````
 
 
 
