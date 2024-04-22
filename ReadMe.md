@@ -128,5 +128,28 @@ sudo apt  install nginx -y
 
 * You should see a active running comment in your terminal that shows it is running. 
 If you put your EX2 public IP address into the URL of your web browser, you can see your vm being hosted 
-![]()
 
+
+# How to deploy your application
+
+# Step 1 : Access the Instance
+
+* Log in to the instance where you want to copy the app. This could be via SSH or any other method based on your setup.
+
+# Step 2 : Prepare the Instance
+
+* Log in to the instance where you want to copy the app. This could be via SSH or any other method based on your setup.
+
+# Step 3 : Transfer the App
+
+* Use a secure file transfer method like SCP or SFTP to transfer the app files from your local machine to the instance. Here's an example using SCP:
+```python
+scp -r /path/to/your/app username@instance_ip:/path/on/instance
+
+```
+
+# Step 4 : Wait for it to download 
+
+* wait for the files to transfer and download.
+
+# Step 5

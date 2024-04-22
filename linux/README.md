@@ -167,6 +167,12 @@ https://chmod-calculator.com/
 printenv
 ```
 
+# How to deploy your application 
+
+***********
+
+## Ste
+
 
 
 
