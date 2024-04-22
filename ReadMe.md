@@ -158,6 +158,19 @@ scp -r /path/to/your/app username@instance_ip:/path/on/instance
 sudo apt-get install -y nodejs
 ```
 
-+ What is node? 
-bvNode.js is a runtime environment that enables running JavaScript code outside of web browsers, leveraging Chrome's V8 JavaScript engine. It's favored for its event-driven, non-blocking I/O model, making it efficient for scalable network applications like server-side programs, APIs, and real-time systems such as chat applications. Central to its appeal is npm, the Node Package Manager, offering a vast array of open-source libraries for developers to utilize. With its asynchronous architecture, Node.js executes operations concurrently, allowing it to handle numerous connections effectively, making it a top choice for high-performance applications.
+### What is node? 
+
+Node.js is a runtime environment that enables running JavaScript code outside of web browsers, leveraging Chrome's V8 JavaScript engine. It's favored for its event-driven, non-blocking I/O model, making it efficient for scalable network applications like server-side programs, APIs, and real-time systems such as chat applications. Central to its appeal is npm, the Node Package Manager, offering a vast array of open-source libraries for developers to utilize. With its asynchronous architecture, Node.js executes operations concurrently, allowing it to handle numerous connections effectively, making it a top choice for high-performance applications.
+
+# Step 6 : Type commands npm install and start  
+
+* Type in the commands npm install and npm start 
+
+```python
+npm install 
+```
+
+```python
+npm start 
+```
 
