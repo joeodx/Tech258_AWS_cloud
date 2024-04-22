@@ -122,11 +122,14 @@ tree allows you to see a diagram of your files and directories :
 
 ![](https://i.stack.imgur.com/VZxA1.png)
 
-## Command 3: 'install nginx, restart and enable'
-
+## Command 3: 'Upgrade, install, restart and enable nginx'
+* Upgrade nginx
+```python
+sudo apt update nginx -y --with-new-pkgs
+```
 * Install nginx
 ```python
-sudo apt install nginx -y
+sudo apt install nginx -y --with-new-pkgs
 ```
 * Restart nginx
 ```python
