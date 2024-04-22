@@ -131,6 +131,11 @@ sudo apt update nginx -y --with-new-pkgs
 ```python
 sudo apt install nginx -y --with-new-pkgs
 ```
+
+* The --with-new-pkgs flag allows the upgrade/installation to proceed even if there are new package dependencies (like a new kernel) that require a system restart. This should prevent the script from getting stuck at the kernel upgrade prompt.
+
+<br>
+
 * Restart nginx
 ```python
 sudo systemctl restart nginx
