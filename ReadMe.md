@@ -145,11 +145,19 @@ If you put your EX2 public IP address into the URL of your web browser, you can 
 * Use a secure file transfer method like SCP or SFTP to transfer the app files from your local machine to the instance. Here's an example using SCP:
 ```python
 scp -r /path/to/your/app username@instance_ip:/path/on/instance
-
 ```
-
 # Step 4 : Wait for it to download 
 
 * wait for the files to transfer and download.
 
-# Step 5
+# Step 5 : Install node 
+
+* Install node.js 
+
+```curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
+
++ What is node? 
+bvNode.js is a runtime environment that enables running JavaScript code outside of web browsers, leveraging Chrome's V8 JavaScript engine. It's favored for its event-driven, non-blocking I/O model, making it efficient for scalable network applications like server-side programs, APIs, and real-time systems such as chat applications. Central to its appeal is npm, the Node Package Manager, offering a vast array of open-source libraries for developers to utilize. With its asynchronous architecture, Node.js executes operations concurrently, allowing it to handle numerous connections effectively, making it a top choice for high-performance applications.
+
