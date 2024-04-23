@@ -12,6 +12,7 @@ Create a custom TCP port for Mongo Db that also can be established anywhere
 
 
 ## Step 1: Update package lists
+* Run these commands to refresh our local packages using upgrade and update command. 
 ```
 sudo apt update -y
 ```
@@ -20,6 +21,7 @@ sudo apt update -y
 ```
 sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y 
 ```
+
 ##  Step 3: Install Nginx web server
 ```
 sudo DEBIAN_FRONTEND=noninteractive apt install nginx 
