@@ -59,11 +59,25 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo DEBIAN_FRONTEND=noninter
 node -v
 ```
 
-## Step 10 - Check the node.js version.
+## Step 10 - Create a apps folder then CD
 
 ```python
-node -v
+mkdir apps cd apps
 ```
+## Step 11 - Clone the folder containing the app
+
+```python
+git clone https://github.com/joeodx/Sparta_test_app2
+```
+## Step 12 - CD into app folder
+
+```python
+cd ~/apps/tech258_sparta_test_app/app
+```
+
+
+
+
 
 
 
