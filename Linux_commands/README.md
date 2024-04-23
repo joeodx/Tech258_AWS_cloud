@@ -183,25 +183,3 @@ ps aux
 * This command displays information such as the PID for processes running on the system.
 
 
-## Kill commands 
-```
-kill -15 PID 
-```
-
-The default value to kill as task is -15
-
-```python
-kill -9 PID 
-```
-
-This is the harshest possible way to kill a task. (Known as a brute force kill)
-
-
-## Parent and Child processes 
-
-* Parent and child processes are terms used in operating systems to describe the relationship between processes.
-
-* A parent process is a process that creates another process, known as its child process. 
-When a parent process spawns a child process, it typically does so using a system call like fork() in Unix-like operating systems. The parent process continues to execute independently of its child process, although it can monitor and manage the child process if needed.
-
-
