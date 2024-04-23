@@ -1,4 +1,4 @@
-# Two tier Deployment
+# Two Tier Deployment
 
 
 ## CONNECTING UP MONGO 7.0G ON UBUNTU
