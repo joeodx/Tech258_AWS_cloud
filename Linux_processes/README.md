@@ -1,6 +1,11 @@
 # Linux processes 
 
 ************************************
+
+Linux processes are the fundamental units of execution in the Linux operating system. They are essentially running instances of programs or tasks. Here's a breakdown of key points about Linux processes:
+
+
+
 ## How do we view our processes?
 
 * To view processes use the 'ps' command 
