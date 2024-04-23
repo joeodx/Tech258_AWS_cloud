@@ -149,7 +149,8 @@ ls -la
 ```python 
 pwd
 ```
-
+<br>
+<br>
 
 # Commands to interact, update, install packages and automate in linux...
 *************************************
@@ -202,6 +203,9 @@ sudo systemctl enable nginx
 Nginx (pronounced "engine-x") is a popular open-source web server and reverse proxy server software. Originally developed by Igor Sysoev in 2004, Nginx is known for its high performance, stability, and low resource consumption, making it a preferred choice for serving web content, handling high-traffic websites, and acting as a reverse proxy for various applications.
 
 ![](https://miro.medium.com/v2/resize:fit:1200/0*mjG1YdoT7xPcnznN.jpg)
+
+<br>
+<br>
 
 # Linux permission forms 
 *********************************
