@@ -134,13 +134,14 @@ ls
 ## 'ls -a and ls -la'
 
 * This command lists all files including hidden
-  ````python
+```python
 ls -a 
-````
+```
 * This command lists all files and directories showing their permissions
-  ````python
+
+```python
 ls -la
-````
+```
 ## 'pwd'
 * Shows current working directory 
 ```python 
@@ -151,14 +152,14 @@ pwd
 # Commands to interact, update, install packages and automate in linux...
 *************************************
 
-## Command 1: 'sudo apt update'
+## 'sudo apt update'
 
 * Updates current packages
 ```python
 sudo apt update -y
 ```
 
-## Command 2: 'sudo install'
+## 'sudo install'
 
 * Install packages e.g like tree 
 
@@ -172,7 +173,7 @@ tree allows you to see a diagram of your files and directories :
 
 ![](https://i.stack.imgur.com/VZxA1.png)
 
-## Command 3: 'Upgrade, install, restart and enable nginx'
+## 'Upgrade, install, restart and enable nginx'
 * Upgrade nginx
 ```python
 sudo apt update nginx -y --with-new-pkgs
