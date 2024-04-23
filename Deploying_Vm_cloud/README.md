@@ -90,11 +90,12 @@ Well done you have launched your e2 client!
 
 Now you are logged into your virtual machine this is how you deploy nginx on your E2 instance.
 
-This is what your screen should look like now 
+This is what your screen should look like now : 
+
 ![33.jpg](..%2Fpictures%2F33.jpg)
 
 
-### Step 1  - Enter the following commands to update and install 
+### Step 1  - Enter the following commands to update and upgrade 
 
 * Enter the following commands to  install and update their necessary ubuntu packages.
 
@@ -104,9 +105,9 @@ sudo apt upgrade -y
 ```
 
 
-### Step 11 - Install nginx 
+### Step 2 - Install nginx 
 
-* Install nginx with this command on Gitbash : 
+* Install nginx with this command in your terminal : 
 
 ````python 
 sudo apt  install nginx -y
@@ -117,8 +118,16 @@ sudo apt  install nginx -y
 ## Step 12 - Well done!
 
 * You should see a active running comment in your terminal that shows it is running. 
-If you put your EX2 public IP address into the URL of your web browser, you can see your vm being hosted 
+* Although this command can show you if it is active : 
+```python 
+systemctl status nginx
+```
+If you put your EX2 public IP address into the URL of your web browser, you can see your vm being hosted it should be like this : 
 
+![44.jpg](..%2Fpictures%2F44.jpg)
+
+
+**************************************************************
 
 # How to deploy your application
 
