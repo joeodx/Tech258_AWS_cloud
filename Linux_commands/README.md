@@ -4,22 +4,44 @@
 
 # Commands to download, move, copy and remove existing files and directories...
 *************************
-## Command 1: 'ls'
+## 'exit'
+
+* Used to exit the current shell 
+
+```python
+exit
+```
+## 'clear'
+
+* Used to clear terminal screen
+
+```python
+clear
+```
+## 'ls'
 
 * Lists directory contents.
 
 ```python
 ls [options] [file|directory]
 ```
-## Command 2: 'cd'
+## 'cd'
 
 * Changes the current directory.
 
 ```python
 cd [directory]
 ```
+## 'history'
 
-## Command 3: 'mkdir'
+* Displays a list of the previous commands typed 
+
+```python
+history
+```
+```
+
+## 'mkdir'
 
 * Creates a new directory 
 
