@@ -83,7 +83,7 @@ npm start
 * These two commands should rerun our app process with the connection string we created stored in the variable DB_HOST
 * This will then seed into your database during the npm install process
 
-## Step 12 : Congratulations!
+## Step 11 : Congratulations!
 
 * Type the following command into your browser with your public IP address
 
