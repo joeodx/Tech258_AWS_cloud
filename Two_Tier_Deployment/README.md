@@ -46,7 +46,14 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gp
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mongodb-org=7.0.6 mongodb-org-database=7.0.6 mongodb-org-server=7.0.6 mongodb-mongosh=2.2.4 mongodb-org-mongos=7.0.6 mongodb-org-tools=7.0.6
 ```
 
-## Step 7: Clone the application repository
+## Step 7: Configure BindIP
+
+* We need to allow it to have connections from anywhere. Remember the port (0. 0. 0. 0) that allows this
+* We need to edit the variable bindIp in the MongoDB config file. 
+* This is located in the etc folder 
+```python
+sudo sed -i 's/bindIp: 127.0.0.1/bindIp: 0.0.0.0/' /etc/mongod.conf
+```
 
 ```
 git clone https://github.com/joeodx/Sparta_test_app2.git
