@@ -51,3 +51,21 @@ Child Process: A child process is a new process created by a parent process. The
 
 * If you were to kill a child process, the parent process will try to restart the process once the child process has been wiped out
 * It is always last resort to kill processes but if we need to there are the following commands...
+
+## How to kill Processes 
+
+There are quite a few kill processes commands but we will focus on the most common 
+
+* TERMINATION (LEVEL 15)- this is to terminate gracefully. this is the default and stops zombie processes from starting. 
+
+```python
+kill (process_id)
+```
+
+* Brute force Kill - This is the harshest and can create a zombie processes if we kill the parent processes with this command.
+
+```
+kill - 9(process_id)
+```
+
+***********************************************************
