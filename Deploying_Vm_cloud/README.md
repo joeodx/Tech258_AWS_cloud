@@ -92,7 +92,7 @@ Now you are logged into your virtual machine this is how you deploy nginx on you
 
 This is what your screen should look like now 
 
-![11 (1).jpg](33.jpg)
+![](33.jpg)
 
 ### Step 1  - Enter the following commands to update and install 
 
