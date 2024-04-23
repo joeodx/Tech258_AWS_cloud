@@ -54,6 +54,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mongodb-org=7.0.6 mongodb
 ```python
 sudo sed -i 's/bindIp: 127.0.0.1/bindIp: 0.0.0.0/' /etc/mongod.conf
 ```
+* use the '-i' flag to edit and save the changes 
 
 ```
 git clone https://github.com/joeodx/Sparta_test_app2.git
