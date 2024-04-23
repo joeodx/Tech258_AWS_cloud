@@ -1,4 +1,4 @@
-# A step by step guide to deploying a virtual machine  on AWS using the gui console
+# A step by step guide to deploying a virtual machine on AWS using the Ubuntu console
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWvOCHeqNEMvlfFJGfKoCQvZlwwgFDEo1D43M_yqLGrw&s)
 
