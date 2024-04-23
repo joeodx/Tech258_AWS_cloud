@@ -37,10 +37,6 @@ echocheck js version
 node -v
 echo done!
 
-set db_host ENV VAR
-export DB_HOST=mongodb://[enter your ip]/posts
-printenv DB_HOST
-
 echo installing app 
 npm install
 
