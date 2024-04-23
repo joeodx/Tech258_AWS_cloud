@@ -119,6 +119,8 @@ head -n [number_of_lines] [filename]
 ````python
 tail -n [number_of_lines] [filename]
 ````
+<br>
+<br>
 
 
 # Commands to navigate and interacting with directories 
