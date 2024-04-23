@@ -1,5 +1,6 @@
 # Linux processes 
 
+************************************
 ## How do we view our processes?
 
 * To view processes use the 'ps' command 
