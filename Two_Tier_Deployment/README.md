@@ -50,17 +50,15 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mongodb-org=7.0.6 mongodb
 
 * We need to allow it to have connections from anywhere. Remember the port (0. 0. 0. 0) that allows this
 * We need to edit the variable bindIp in the MongoDB config file. 
-* This is located in the etc folder 
+* This is located in the etc folder and can use the 'sed' folder
 ```python
 sudo sed -i 's/bindIp: 127.0.0.1/bindIp: 0.0.0.0/' /etc/mongod.conf
 ```
 * use the '-i' flag to edit and save the changes 
 
-```
-git clone https://github.com/joeodx/Sparta_test_app2.git
-```
-
-##  Step 8: Install Node.js using NodeSource repository
+##  Step 9: Connect the app and MongoDB instances
+* SSH into your application ec2 instance
+* Create an environmental variable DB_HOST 
 ```
 curl -fSSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs 
 ```
