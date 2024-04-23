@@ -22,17 +22,22 @@ sudo apt update -y
 sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y 
 ```
 
-##  Step 3: Install Nginx web server
+##  Step 3: Install gnupg and curl packages
+* This is to specifically download packages we need for MongoDb but is more of a safe command as we had already installed packages
 ```
-sudo DEBIAN_FRONTEND=noninteractive apt install nginx 
+sudo apt-get install gnupg curl -y
 ```
-##  Step 4: Restart Nginx
+##  Step 4: Download the MONGODB GPG Key
+* This is the jey we will use to verify the mongoDb packages that we will install
 ```
-sudo systemctl restart nginx
+curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
+   --dearmor
 ```
-##  Step 5: Enable Nginx to start on boot
+##  Step 5: Create a list file for MongoDb
+* This is a file for MongoDB t o provide a convenient way for packages like 'apt' to manage the instilisation 
 ```
-sudo DEBIAN_FRONTEND=noninteractive systemctl enable nginx
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
 
 ## Step 6: Install Git version control
