@@ -175,10 +175,40 @@ Node.js is a runtime environment that enables running JavaScript code outside of
 ```python
 npm install 
 ```
-
 ```python
 npm start 
 ```
+# Step 7 : get the app folder
+
+* This command clones a repository from the specified URL, in this case, it's cloning a repository named "Sparta_test_app2" from GitHub.
+```
+git clone https://github.com/joeodx/Sparta_test_app2.git
+```
+# Step 8 : cd app folder
+*  This command changes the current directory to the "app" directory within the cloned repository.
+```
+~/Sparta_test_app2/app
+```
+
+# Step 9 : Install app
+* This command installs all the dependencies required for the application to run. It reads the "package.json" file in the current directory and installs all dependencies listed in it.
+```
+npm install 
+```
+
+# Step 10 : To stop processes 
+
+This command stops the application named "app" using PM2, a process manager for Node.js applications. The sudo command is used to ensure proper permissions for stopping the process.
+```
+sudo pm2 stop app
+```
+
+# Step 11 :Run app
+This command starts the Node.js application named "app.js" using PM2. It manages the application process in the background, ensuring it stays running even if the terminal session is closed.
+```
+pm2 start app.js app
+```
+
 
 
 
