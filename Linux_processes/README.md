@@ -40,3 +40,14 @@ What do the columns mean?
 * ```VSZ``` - This is the virtual memory being used by the process 
 * ```RSS``` - Physical memory used by the process 
 * ```TTY``` - Identifier for the current terminal session 
+
+
+## Parent and Child processes?
+
+arent and child processes are fundamental concepts in operating systems, including Linux. Here's what they entail:
+
+Parent Process: A parent process is one that has created one or more child processes. Typically, when you start a program from the command line or through another process (like a shell), the process that initiates it becomes its parent. The parent process may also be responsible for managing the lifecycle of its child processes.
+Child Process: A child process is a new process created by a parent process. The child inherits certain attributes from its parent, such as environment variables, file descriptors, and the working directory. Child processes are often created to perform specific tasks or to execute other programs.
+
+* If you were to kill a child process, the parent process will try to restart the process once the child process has been wiped out
+* It is always last resort to kill processes but if we need to there are the following commands...
