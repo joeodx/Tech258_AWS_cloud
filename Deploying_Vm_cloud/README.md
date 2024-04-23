@@ -11,7 +11,7 @@ We are going to show you step by step how to deploying a virtual machine (ec2-in
 * Sign in to the AWS Management Console: Go to the AWS Management Console at https://aws.amazon.com/console/ and sign in to your AWS account.
 <br>
 
-![](pictures/screenshot1.jpg)
+![](../pictures/screenshot1.jpg)
 
 ### Step 2 - Navigate to EC2 Dashboard: 
 
@@ -35,13 +35,13 @@ We are going to show you step by step how to deploying a virtual machine (ec2-in
 
 * *Machine images, often referred to as Amazon Machine Images (AMIs) in the context of AWS, are pre-configured templates that contain the necessary information to launch virtual servers, known as instances, in the cloud.*
 
-![](pictures/screenshot4.jpg)
+![](../pictures/screenshot4.jpg)
 
 ### Step 5 - Choose an instance type 
 
 * Choose an Instance Type" section, select the instance type that suits your workload requirements. Instance types vary in terms of CPU, memory, storage, and networking capacity. In our case we will choose "t2.micro" 
 
-![](pictures/screenshot5.jpg)
+![](../pictures/screenshot5.jpg)
 
 ### Step 6 - Add Key pair login 
 
@@ -85,7 +85,7 @@ To summarize, you don't need to make any changes to the VPC or subnet settings s
 
 * One loaded click on the instances tab to check that your VM is running. 
 
-![](pictures/screenshot8.jpg)
+![](../pictures/screenshot8.jpg)
 
 ### Step 9 - Connect to instance 
 
@@ -102,7 +102,7 @@ We are going to do that as follows :
 
 * Follow the instructions on this page
 
-![](pictures/screenshot9.jpg)
+![](../pictures/screenshot9.jpg)
 
 ### Step 10 - Enter the following commands to update and install 
 
