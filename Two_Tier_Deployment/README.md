@@ -56,40 +56,43 @@ sudo sed -i 's/bindIp: 127.0.0.1/bindIp: 0.0.0.0/' /etc/mongod.conf
 ```
 * use the '-i' flag to edit and save the changes 
 
+##  Step 8: Connect the app and MongoDB instances
+* You will need to restart to make sure these changes are working
+* We also need to enable the MongoDB service so if we reboot our instance 
+```
+sudo systemctl restart mongod
+sudo systemctl enable mongod
+```
+
 ##  Step 9: Connect the app and MongoDB instances
 * SSH into your application ec2 instance
-* Create an environmental variable DB_HOST 
+* Create an environmental variable DB_HOST which will allow for a connection between the App and DB instance.
 ```
-curl -fSSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs 
-```
-
-##  Step 9: Check Node.js version
-
-```
-node -v
+export DB_HOST=mongodb://<db_instance_private_ip>/posts
 ```
 
-##  Step 10: Set the DB_HOST environment variable
+##  Step 10: Change into your app repository
+
+* Run npm install and npm start
+
 ```
-export DB_HOST=mongodb://172.31.33.53/posts
-printenv DB_HOST
+npm install 
+npm start 
 ```
 
-* Remember to change to your ip address
+* These two commands should rerun our app process with the connection string we created stored in the variable DB_HOST
+* This will then seed into your database during the npm install process
 
-## Step 11: Install application dependencies
-```
-npm install
-```
+## Step 12 : Congratulations!
 
-## Step 12: Install npm dependencies globally
+* Type the following command into your browser with your public IP address
+
+```python
+app_instance_public_ip:3000/posts
 ```
-sudo npm install
-```
-## Step 13: Install PM2 process manager globally
-```
-sudo npm install -g pm2
-```
-##  Step 14: Start the application using PM2
-```
-sudo pm2 start app.js
+* You should get the following page if sucessful : 
+
+![77.jpg](..%2Fpictures%2F77.jpg)
+
+****************************************************************
+
