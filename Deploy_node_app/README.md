@@ -34,3 +34,36 @@ sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y
 ```python
 sudo DEBIAN_FRONTEND=noninteractive apt install nginx 
 ```
+
+## Step 6 - Restarting nginx
+
+```python
+sudo systemctl restart nginx
+```
+
+## Step 7 - Enabiling nginx
+
+```python
+sudo systemctl enable nginx
+```
+
+## Step 8 - Install node version 20
+
+```python
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo DEBIAN_FRONTEND=noninteractive -E bash - &&\ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs
+```
+
+## Step 9 - Check the node.js version.
+
+```python
+node -v
+```
+
+## Step 10 - Check the node.js version.
+
+```python
+node -v
+```
+
+
+
