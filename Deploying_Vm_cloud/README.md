@@ -104,7 +104,6 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-
 ### Step 2 - Install nginx 
 
 * Install nginx with this command in your terminal : 
@@ -115,7 +114,7 @@ sudo apt  install nginx -y
 
 * *Nginx (pronounced "engine-x") is a popular open-source web server, reverse proxy server, and load balancer. It's known for its high performance, stability, and scalability, making it widely used for serving web content, hosting websites, and balancing traffic across multiple servers.*
 
-## Step 12 - Well done!
+## Step 3 - Well done!
 
 * You should see a active running comment in your terminal that shows it is running. 
 * Although this command can show you if it is active : 
