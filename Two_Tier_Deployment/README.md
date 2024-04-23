@@ -28,7 +28,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y
 sudo apt-get install gnupg curl -y
 ```
 ##  Step 4: Download the MONGODB GPG Key
-* This is the jey we will use to verify the mongoDb packages that we will install
+* This is the key we will use to verify the mongoDb packages that we will install
 ```
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
@@ -40,9 +40,10 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
 
-## Step 6: Install Git version control
+## Step 6: Install MongoDB 
+* We don't want the latest version of MongDB so we have to be specific on what version to download
 ``` 
-sudo apt install git -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mongodb-org=7.0.6 mongodb-org-database=7.0.6 mongodb-org-server=7.0.6 mongodb-mongosh=2.2.4 mongodb-org-mongos=7.0.6 mongodb-org-tools=7.0.6
 ```
 
 ## Step 7: Clone the application repository
