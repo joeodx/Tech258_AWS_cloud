@@ -91,8 +91,8 @@ Well done you have launched your e2 client!
 Now you are logged into your virtual machine this is how you deploy nginx on your E2 instance.
 
 This is what your screen should look like now 
+![33.jpg](..%2Fpictures%2F33.jpg)
 
-![](33.jpg)
 
 ### Step 1  - Enter the following commands to update and install 
 
