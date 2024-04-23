@@ -71,14 +71,6 @@ I will explain the network settings as follows :
 
 ![](../pictures/screenshot8.jpg)
 
-### Step 9 - Connect to instance 
-
-* Click the connect button and you should be presented with a page that says connect to instance : 
-
-
-"Connect to instance" on AWS refers to the process of establishing a remote connection to a virtual server (instance) that you have launched within your AWS account. This connection allows you to interact with the instance's operating system, manage files, install software, and perform other administrative tasks.
-
-We are going to do that as follows : 
 
 ### Step 9 - Deploying nginx on your EC2 instance
 
@@ -88,9 +80,16 @@ We are going to do that as follows :
 ![](../pictures/screenshot9.jpg)
 
 
+********************************************************
+
 Well done you have launched your e2 client!
 
-### Step 10 - Enter the following commands to update and install 
+
+# Deploying nginx on your E2 instance 
+
+Now you are logged into your virtual machine this is how you deploy nginx on your E2 instance.
+
+### Step 1  - Enter the following commands to update and install 
 
 * Enter the following commands to  install and update their necessary ubuntu packages.
 
