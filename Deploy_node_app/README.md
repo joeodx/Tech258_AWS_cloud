@@ -75,7 +75,32 @@ git clone https://github.com/joeodx/Sparta_test_app2
 cd ~/apps/tech258_sparta_test_app/app
 ```
 
+## Step 13 - Create a apps folder then CD
 
+```python
+mkdir apps cd apps
+```
+## Step 14 - sudo npm install
+
+```python
+git clone https://github.com/joeodx/Sparta_test_app2
+```
+## Step 15 - sudo npm install -g pm2
+
+```python
+cd ~/apps/tech258_sparta_test_app/app
+```
+## Step 16 - Stop all processes that pm2 is running
+
+```python
+sudo pm2 stop all
+```
+## Step 17 - Start app.js using pm2
+
+```python
+sudo pm2 start node app.js
+````
+**************************************************************
 
 
 
