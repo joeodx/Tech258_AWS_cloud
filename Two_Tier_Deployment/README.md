@@ -2,10 +2,14 @@
 
 ## CONNECTING UP MONGO 7.0G ON UBUNTU
 
-### Before you start make sure to create a EC2 instance onb AWS and change the security group to allow traffic on port 27017
+### Before you start make sure to create a MongoDb instance onb AWS and change the security group to allow traffic on port 27017
+### When creating the instance, nake sure tio put in these ports when you edit the security group settings 
 
-* Make sure you are logged into your two e2 instance on gitbash 
-The following commands go in that VM : 
+* SSH - port 22 (0. 0. 0. 0)
+Make sure this connection can be established anywhere.
+* Mongo DB - port 27017 (0. 0. 0. 0)
+Create a custom TCP port for Mongo Db that also can be established anywhere 
+
 
 ## Step 1: Update package lists
 ```
