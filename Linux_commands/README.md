@@ -2,7 +2,7 @@
 ************************************************************
 ![LINUX](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbiV23uy6NDy1C85mVlwH4HXgWz4ebcwCYwqgzS3PvIQ&s)
 
-# Commands to download, move, copy and remove existing files and directories...
+# Basic Linux Commands
 *************************
 ## 'exit'
 
@@ -39,7 +39,7 @@ cd [directory]
 ```python
 history
 ```
-```
+
 
 ## 'mkdir'
 
@@ -48,14 +48,14 @@ history
 ````python
 mkdir [directory_name]
 ````
-## Command 4: 'cp'
+##  'cp'
 
 * Copies files and directories.
 
 ```python
 cp [source] [destination]
 ```
-## Command 5: 'rm - r'
+##  'rm - r'
 
 * Removes files or directories.
 
@@ -63,7 +63,7 @@ cp [source] [destination]
 rm -r [directory]
 ```
 
-## Command 6: 'curl'
+##  'curl'
 
 * Transfers data from or to a server, supporting various protocols including HTTP, HTTPS, FTP, etc. 
 
@@ -72,15 +72,15 @@ curl [options] [URL]
 
 ````
 
-## Command 7: 'mv'
+## 'mv'
 
 * Moves a file or renames it.
 
 ```python
-cd [directory]
+mv [filename]
 ```
 
-## Command 8: 'touch'
+##  'touch'
 
 * Creates an empty file.
 
@@ -88,7 +88,7 @@ cd [directory]
 touch [filename]
 ````
 
-## Command 9: 'nano'
+## 'nano'
 
 * Opens a file in the Nano text editor for editing.
 
@@ -96,7 +96,7 @@ touch [filename]
 nano [filename]
 ```
 
-## Command 10: 'cat'
+##  'cat'
 
 * Displays the contents of a file.
 
@@ -104,7 +104,7 @@ nano [filename]
 cat [filename]
 ````
 
-## Command 11: 'head'
+##  'head'
 
 * Prints the top lines of a file.
 
@@ -112,13 +112,41 @@ cat [filename]
 head -n [number_of_lines] [filename]
 ```
 
-## Command 12: 'tail'
+## 'tail'
 
 * Prints the last lines of a file
 
 ````python
 tail -n [number_of_lines] [filename]
 ````
+
+
+# Commands to navigate and interacting with directories 
+*************************************
+
+## 'ls' 
+
+*  lists files and directories in the current directory.
+````python
+ls 
+````
+
+## 'ls -a and ls -la'
+
+* This command lists all files including hidden
+  ````python
+ls -a 
+````
+* This command lists all files and directories showing their permissions
+  ````python
+ls -la
+````
+## 'pwd'
+* Shows current working directory 
+```python 
+pwd
+```
+
 
 # Commands to interact, update, install packages and automate in linux...
 *************************************
@@ -188,20 +216,4 @@ https://chmod-calculator.com/
 ```python
 printenv
 ```
-
-# Processes in Linux
-*************************************
-
-```python
-top
-```
-* SHIFT + P: Sorts by cpu usage.
-* SHIFT + M: Sorts by memory.
-* SHIFT + N: Sorts by newest.
-
-````
-ps aux
-````
-* This command displays information such as the PID for processes running on the system.
-
 
