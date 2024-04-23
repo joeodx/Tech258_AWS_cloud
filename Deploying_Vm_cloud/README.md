@@ -53,17 +53,19 @@ We are going to show you step by step how to deploying a virtual machine (ec2-in
 
 I will explain the network settings as follows : 
 
-* What are SSH keys and how we are using them here?
-     * SSH Keys are a pair of cryptographic keys used for secure communication between a client and a server over an insecure network like the internet.
-     * In this case we are using the SSH keys as a method of securely accessing our EC2 ubuntu instance. We have the key and the EC2 instance is locked, we must unlock it to access it.
+ * What are security groups?
+     * Security Groups in AWS are virtual firewalls that control inbound and outbound traffic.
+   * What are ports?
+     * Ports are communication endpoints that allow different services or applications to connect and exchange data over a network.
+     * Each port number corresponds to a specific service or protocol, allowing for efficient and secure data transfer over networks. SSH uses port 22, and HTTP uses port 80. If you were using HTTPS it would be port 433.
 
-![11 (1).jpg](..%2Fpictures%2F11%20%281%29.jpg)
+ ![11 (1).jpg](..%2Fpictures%2F11%20%281%29.jpg)
 
 ![11 (1).jpg](..%2Fpictures%2F11%20%281%29.jpg)
 
 * After this click Launch Instance!
 
-### Step 8 - check to see your virtual machine has deployed 
+### Step 8 - Check to see your virtual machine has deployed 
 
 * One loaded click on the instances tab to check that your VM is running. 
 
@@ -80,11 +82,13 @@ We are going to do that as follows :
 
 ### Step 9 - Deploying nginx on your EC2 instance
 
-* Open an SSH client- in our case we will use Gitbash
+* Open an SSH client- in our case we will use Gitbash and type in your ssh client 
 
-* Follow the instructions on this page
 
 ![](../pictures/screenshot9.jpg)
+
+
+Well done you have launched your e2 client!
 
 ### Step 10 - Enter the following commands to update and install 
 
