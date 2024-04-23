@@ -1,6 +1,5 @@
 # Two Tier Deployment
 
-
 ## CONNECTING UP MONGO 7.0G ON UBUNTU
 
 ### Before you start make sure to create a EC2 instance onb AWS and change the security group to allow traffic on port 27017
@@ -57,6 +56,8 @@ node -v
 export DB_HOST=mongodb://172.31.33.53/posts
 printenv DB_HOST
 ```
+
+* Remember to change to your ip address
 
 ## Step 11: Install application dependencies
 ```
