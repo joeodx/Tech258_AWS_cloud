@@ -80,14 +80,19 @@ I will explain the network settings as follows :
 ![](../pictures/screenshot9.jpg)
 
 
-********************************************************
 
 Well done you have launched your e2 client!
 
 
+******************************************
+
 # Deploying nginx on your E2 instance 
 
 Now you are logged into your virtual machine this is how you deploy nginx on your E2 instance.
+
+This is what your screen should look like now 
+
+![11 (1).jpg](..%2Fpictures%2F11%20%281%29.jpg)
 
 ### Step 1  - Enter the following commands to update and install 
 
