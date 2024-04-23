@@ -17,8 +17,20 @@ Before you start make sure you have done the steps listed here : [Link](https://
 
 ## Step 3 - Open Ubuntu terminal 
 
-* Get ready to type
+* SSH into your Ubuntu server and add the following commands
 
 ![33.jpg](..%2Fpictures%2F33.jpg)
 
-## Step 4 - 
+## Step 4 - Upgrade and Upgrade Packages
+
+```python
+sudo apt update =y
+sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y
+```
+## Step 5 - Install nginx
+
+* Install Nginx 
+
+```python
+sudo DEBIAN_FRONTEND=noninteractive apt install nginx 
+```
