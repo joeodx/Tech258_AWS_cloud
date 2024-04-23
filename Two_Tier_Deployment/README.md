@@ -2,6 +2,8 @@
 
 ## CONNECTING UP MONGO 7.0G ON UBUNTU
 
+[](https://i.ibb.co/kX3JpCQ/1-b0-Tt-GI6g-WFLlt-L1-Qk-Rx-Vdg.png)
+
 ### Before you start make sure to create a MongoDb instance onb AWS and change the security group to allow traffic on port 27017
 ### When creating the instance, nake sure tio put in these ports when you edit the security group settings 
 
