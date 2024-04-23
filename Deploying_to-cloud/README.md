@@ -1,8 +1,11 @@
-# DEPLOY YOUR APP TO AN E2 INSTANCE AND CONNECT TO E2 DATBASE 
+# Two tier Deployment
 
-* Make sure you are logged into your two e2 instances on aws and have two termional s pen one inside your ubuntu deployed app VM
-* And the other in your deployed app vm 
 
+## CONNECTING UP MONGO 7.0G ON UBUNTU
+
+### Before you start make sure to create a EC2 instance onb AWS and change the security group to allow traffic on port 27017
+
+* Make sure you are logged into your two e2 instance on gitbash 
 The following commands go in that VM : 
 
 ## Step 1: Update package lists
