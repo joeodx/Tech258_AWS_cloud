@@ -25,12 +25,6 @@
 ## How is Azure structured?
 Azure is structured and organized into various services and categories, each designed to fulfill specific cloud computing needs. Here's an overview of the main organizational components of Azure:
 
-* **Compute**: This category includes services like Virtual Machines (VMs), Azure Kubernetes Service (AKS), Azure Functions, and Azure Batch, allowing users to run applications and workloads on Azure's infrastructure.
-* **Storage**: Azure provides scalable and durable cloud storage solutions, such as Blob Storage, File Storage, Disk Storage, and Data Lake Storage, catering to various storage requirements.
-* **Networking**: Azure offers networking services like Virtual Network (VNet), Load Balancer, Application Gateway, VPN Gateway, and Azure DNS, enabling users to build secure and highly available network architectures.
-* **Databases**: Azure provides a wide range of database services, including Azure SQL Database, Azure Cosmos DB, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Database for MariaDB, and more, to handle relational and non-relational data.
-* **Identity & Access Management (IAM):** Azure Active Directory (Azure AD) is the core identity service in Azure, facilitating user authentication, authorization, and management for Azure resources and applications.
-
 ## What type of services does Azure provide?
 
 Azure provides a vast array of cloud services across multiple categories to cater to various computing needs. Here are some of the types of services offered by Azure:
