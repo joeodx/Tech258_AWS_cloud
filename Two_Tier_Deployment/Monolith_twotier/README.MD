@@ -10,7 +10,8 @@ Some benefits include :
 * Performance: With the distribution of workload between client and server, two-tier architecture often leads to better performance as it reduces the load on individual components. The client is responsible for user interface interactions while the server handles data processing, resulting in faster response times.
 * Flexibility: Two-tier architecture offers flexibility in terms of technology choices for both client and server components. This flexibility allows developers to select the most suitable technologies for each layer, optimizing performance and development efficiency.
 
-  
+*********************************************
+<br>
 * **Monolithic architecture***, on the other hand, is a single-tiered architecture where all the components of an application are tightly coupled and deployed together as a single unit.
 
 Some benefits include : 
