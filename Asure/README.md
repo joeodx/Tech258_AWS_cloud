@@ -5,7 +5,9 @@
 
 ## What is Azure?
 
-* Azure is a cloud computing platform and service created by Microsoft. It provides a wide range of cloud services, including computing, storage, networking, databases, analytics, machine learning, artificial intelligence (AI), Internet of Things (IoT), and more. Azure allows users to build, deploy, and manage applications and services through Microsoft-managed data centers located worldwide. It supports various programming languages, frameworks, and operating systems, providing flexibility for developers and businesses. Azure's pay-as-you-go model enables users to scale resources up or down based on demand, making it suitable for startups, enterprises, and everything in between
+* Azure is a cloud computing platform and service created by Microsoft. It provides a wide range of cloud services, including computing, storage, networking, databases, analytics, machine learning, artificial intelligence (AI), Internet of Things (IoT), and more.
+*  Azure allows users to build, deploy, and manage applications and services through Microsoft-managed data centers located worldwide. It supports various programming languages, frameworks, and operating systems, providing flexibility for developers and businesses.
+*   Azure's pay-as-you-go model enables users to scale resources up or down based on demand, making it suitable for startups, enterprises, and everything in between
 
 ## What are Azure regions?
 
