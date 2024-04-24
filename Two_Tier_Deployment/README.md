@@ -97,3 +97,9 @@ app_instance_public_ip:3000/posts
 
 ****************************************************************
 
+## Any Blockers?
+
+I deployed the app instance before the database instance and the connection did not work. I need to rememebr to do it the other way round in the future. 
+
+Also forgot to put port 3000 in AWS security group when I was setting up the instance in AWs. 
+
