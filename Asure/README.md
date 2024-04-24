@@ -5,10 +5,19 @@
 
 ## What is Azure?
 
-Azure is a cloud computing platform and service created by Microsoft. It provides a wide range of cloud services, including computing, storage, networking, databases, analytics, machine learning, artificial intelligence (AI), Internet of Things (IoT), and more. Azure allows users to build, deploy, and manage applications and services through Microsoft-managed data centers located worldwide. It supports various programming languages, frameworks, and operating systems, providing flexibility for developers and businesses. Azure's pay-as-you-go model enables users to scale resources up or down based on demand, making it suitable for startups, enterprises, and everything in between
+* Azure is a cloud computing platform and service created by Microsoft. It provides a wide range of cloud services, including computing, storage, networking, databases, analytics, machine learning, artificial intelligence (AI), Internet of Things (IoT), and more. Azure allows users to build, deploy, and manage applications and services through Microsoft-managed data centers located worldwide. It supports various programming languages, frameworks, and operating systems, providing flexibility for developers and businesses. Azure's pay-as-you-go model enables users to scale resources up or down based on demand, making it suitable for startups, enterprises, and everything in between
 
 ## What are Azure regions?
 
 ![](https://media.licdn.com/dms/image/C5612AQEcGGBoDtX6rA/article-cover_image-shrink_600_2000/0/1631791147534?e=2147483647&v=beta&t=zx-rVPxTo4s7VCffuEwSpEXVcEQzKio8oz_YcfoaliA)
 
 * Azure regions are geographically distributed data center locations where Microsoft Azure services are deployed and hosted. These regions are interconnected through a high-speed network backbone to provide low-latency access and redundancy. Each region is independent, with its own set of data centers, power, cooling, and networking infrastructure. Azure regions are strategically located around the world to serve customers globally while complying with data sovereignty and compliance requirements.
+
+## How is Azure structured?
+Azure is structured and organized into various services and categories, each designed to fulfill specific cloud computing needs. Here's an overview of the main organizational components of Azure:
+
+* Compute: This category includes services like Virtual Machines (VMs), Azure Kubernetes Service (AKS), Azure Functions, and Azure Batch, allowing users to run applications and workloads on Azure's infrastructure.
+* Storage: Azure provides scalable and durable cloud storage solutions, such as Blob Storage, File Storage, Disk Storage, and Data Lake Storage, catering to various storage requirements.
+* Networking: Azure offers networking services like Virtual Network (VNet), Load Balancer, Application Gateway, VPN Gateway, and Azure DNS, enabling users to build secure and highly available network architectures.
+* Databases: Azure provides a wide range of database services, including Azure SQL Database, Azure Cosmos DB, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Database for MariaDB, and more, to handle relational and non-relational data.
+* Identity & Access Management (IAM): Azure Active Directory (Azure AD) is the core identity service in Azure, facilitating user authentication, authorization, and management for Azure resources and applications.
