@@ -12,7 +12,7 @@ Some benefits include :
 
 *********************************************
 <br>
-* **Monolithic architecture***, on the other hand, is a single-tiered architecture where all the components of an application are tightly coupled and deployed together as a single unit.
+* *Monolithic architecture**, on the other hand, is a single-tiered architecture where all the components of an application are tightly coupled and deployed together as a single unit.
 
 Some benefits include : 
 * Simplicity: Monolithic architecture simplifies development, deployment, and scaling processes by having all components of an application contained within a single codebase. This simplicity can lead to faster development cycles and easier maintenance, especially for small to medium-sized projects.
