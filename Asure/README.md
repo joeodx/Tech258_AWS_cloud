@@ -57,3 +57,16 @@ Azure PowerShell is a scripting environment built on top of Windows PowerShell t
 
 * Azure Management Libraries:
 Azure Management Libraries are client libraries provided by Microsoft for popular programming languages like .NET, Java, Python, and Node.js. These libraries abstract the Azure REST API and provide higher-level constructs for managing Azure resources programmatically.
+
+## What is the differnce between Azure and Azure DevOps
+
+Azure is Microsoft's cloud computing platform, providing various cloud services. Azure DevOps, on the other hand, is a set of collaboration tools for software development, covering the entire DevOps lifecycle. Azure is for hosting applications, while Azure DevOps is for managing the development process.
+
+## Why should you use the Azure Pricing calcualtor?
+
+ You should use the Azure Pricing Calculator to plan and estimate the cost of Azure services before deploying them. This helps in budgeting, optimizing spending, and avoiding unexpected expenses by providing insights into the pricing of different services and configurations. Additionally, it allows for comparison of pricing options and adjustments to fit your specific needs, ensuring cost-effectiveness and resource optimization.
+
+ ![](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/media/pricing-calculator/product-picker.png)
+
+
+ ********************************************************
