@@ -11,7 +11,16 @@
 
 ![](https://media.licdn.com/dms/image/C5612AQEcGGBoDtX6rA/article-cover_image-shrink_600_2000/0/1631791147534?e=2147483647&v=beta&t=zx-rVPxTo4s7VCffuEwSpEXVcEQzKio8oz_YcfoaliA)
 
-* Azure regions are geographically distributed data center locations where Microsoft Azure services are deployed and hosted. These regions are interconnected through a high-speed network backbone to provide low-latency access and redundancy. Each region is independent, with its own set of data centers, power, cooling, and networking infrastructure. Azure regions are strategically located around the world to serve customers globally while complying with data sovereignty and compliance requirements.
+* Azure regions are geographically distributed data center locations where Microsoft Azure services are deployed and hosted. 
+* These regions are interconnected through a high-speed network backbone to provide low-latency access and redundancy.
+* Each region is independent, with its own set of data centers, power, cooling, and networking infrastructure. 
+  
+## What are avalaibilty zones?
+
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/384721i3E9AD27F395754BC/image-size/original?v=v2&px=-1)
+
+* availability zones are unique physical locations within an Azure region, each made up of one or more data centers equipped with independent power, cooling, and networking. The purpose of availability zones is to provide resiliency and high availability for applications and data by distributing them across multiple zones within a region
+* By spreading resources across multiple availability zones, Azure ensures that if one zone goes down due to a failure, the services and applications hosted in other zones remain unaffected. This design helps to minimize the risk of downtime and data loss.
 
 ## How is Azure structured?
 Azure is structured and organized into various services and categories, each designed to fulfill specific cloud computing needs. Here's an overview of the main organizational components of Azure:
