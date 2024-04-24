@@ -95,6 +95,19 @@ app_instance_public_ip:3000/posts
 
 ![77.jpg](..%2Fpictures%2F77.jpg)
 
+
+## Step 12 Configure nginx reverse proxy 
+
+* We can automate the process of acessing our node application. Usually we add ```300``` to the end of our url, but we can use a reverse proxy to redirect automatically to this port. 
+* You need to edit the nginx config file found at this path 
+  ```
+  etc/nginx/sites-available/default
+  ```
+* Then you can automate the process by using the command below 
+  ```
+  sudo sed -i '51s/.*/                proxy_pass http:\/\/localhost:3000;/' /etc/nginx/sites-available/default
+  ```
+
 ****************************************************************
 
 ## Any Blockers?
