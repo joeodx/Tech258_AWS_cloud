@@ -1,12 +1,13 @@
 * Deploy Database first
 
+
 #!/bin/bash
 
 echo updating...
 sudo apt update -y
 echo done!
 
-# upgrade 
+ upgrade 
 sudo DEBIAN_FRONTEND=nonnoninteractive apt upgrade -y
 
 # Install gnupg
@@ -38,66 +39,61 @@ sudo sed -i 's/bindIp: 127.0.0.1/bindIp: 0.0.0.0/' /etc/mongod.conf
 sudo systemctl restart mongod
 sudo systemctl enable mongod
 
-*THEN APPLCIATION
 
 #!/bin/bash
 
-echo updating...
+echo updating
 sudo apt update -y
 echo done!
 
-echo upgrading packages...
-sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y
+echo upgrading packages
+sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y 
 echo done!
 
-echo installing nginx...
-sudo DEBIAN_FRONTEND=noninteractive apt install nginx -y < /dev/null
+echo installing nginx
+sudo DEBIAN_FRONTEND=noninteractive apt install nginx 
 echo done!
 
-# configure reverse proxy
-sudo sed -i '51s/.*/\t        proxy_pass http:\/\/localhost:3000;/' /etc/nginx/sites-enabled/default
-# changing a config file
-
-echo restarting nginx...
+echo restarting nginx
 sudo systemctl restart nginx
 echo done!
 
-echo enabling nginx...
-sudo systemctl enable nginx
+echo enabling nginx
+sudo DEBIAN_FRONTEND=noninteractive systemctl enable nginx
 echo done!
 
-echo install node js
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo DEBIAN_FRONTEND=noninteractive -E bash - && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs
+install git 
+sudo apt install git -y
 echo done!
 
-echocheck js version
-note -v
-echo done!
-
-echo set DB_HOST env var
-export DB_HOST=mongodb://172.31.33.246:27017/posts
-echo done!
-
-echo install app folder
+echo get app
 git clone https://github.com/joeodx/Sparta_test_app2.git
 echo done!
 
-echo cd app folder
-cd ~/Sparta_test_app2/app
+echo install node js
+script3.sh
+curl -fSSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs 
 echo done!
+
+echocheck js version
+node -v
+echo done!
+
+# set db_host ENV VAR
+export DB_HOST=mongodb://(replace with id)/posts
+printenv DB_HOST
+
+echo installing app 
+npm install
 
 echo install npm
-sudo -E npm install
+sudo npm install
 echo done!
 
-echo install pm2
-sudo -E npm install -g pm2
-echo done!
-
-echo stop app
-pm2 stop app
-echo done!
+echo installing pm2
+sudo npm install -g pm2
+echo done
 
 echo start app
-pm2 start app.js app
-echo done!
+sudo pm2 start app.js
+echo Done!
