@@ -48,7 +48,7 @@ sudo systemctl enable mongod
 echo done!
 ```
 
-# Then deploy app- make sure to change ip adress and configure settings
+# Then deploy app- make sure to change ip address and configure settings
 
 ```
 #!/bin/bash
