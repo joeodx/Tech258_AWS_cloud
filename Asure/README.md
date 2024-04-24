@@ -16,8 +16,44 @@
 ## How is Azure structured?
 Azure is structured and organized into various services and categories, each designed to fulfill specific cloud computing needs. Here's an overview of the main organizational components of Azure:
 
-* Compute: This category includes services like Virtual Machines (VMs), Azure Kubernetes Service (AKS), Azure Functions, and Azure Batch, allowing users to run applications and workloads on Azure's infrastructure.
-* Storage: Azure provides scalable and durable cloud storage solutions, such as Blob Storage, File Storage, Disk Storage, and Data Lake Storage, catering to various storage requirements.
-* Networking: Azure offers networking services like Virtual Network (VNet), Load Balancer, Application Gateway, VPN Gateway, and Azure DNS, enabling users to build secure and highly available network architectures.
-* Databases: Azure provides a wide range of database services, including Azure SQL Database, Azure Cosmos DB, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Database for MariaDB, and more, to handle relational and non-relational data.
-* Identity & Access Management (IAM): Azure Active Directory (Azure AD) is the core identity service in Azure, facilitating user authentication, authorization, and management for Azure resources and applications.
+* **Compute**: This category includes services like Virtual Machines (VMs), Azure Kubernetes Service (AKS), Azure Functions, and Azure Batch, allowing users to run applications and workloads on Azure's infrastructure.
+* **Storage**: Azure provides scalable and durable cloud storage solutions, such as Blob Storage, File Storage, Disk Storage, and Data Lake Storage, catering to various storage requirements.
+* **Networking**: Azure offers networking services like Virtual Network (VNet), Load Balancer, Application Gateway, VPN Gateway, and Azure DNS, enabling users to build secure and highly available network architectures.
+* **Databases**: Azure provides a wide range of database services, including Azure SQL Database, Azure Cosmos DB, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Database for MariaDB, and more, to handle relational and non-relational data.
+* **Identity & Access Management (IAM):** Azure Active Directory (Azure AD) is the core identity service in Azure, facilitating user authentication, authorization, and management for Azure resources and applications.
+
+## What type of services does Azure provide?
+
+Azure provides a vast array of cloud services across multiple categories to cater to various computing needs. Here are some of the types of services offered by Azure:
+
+* Compute Services:
+Virtual Machines (VMs)
+Azure Kubernetes Service (AKS)
+
+* Storage Services:
+Blob Storage (object storage)
+File Storage (managed file shares)
+
+* Networking Services:
+Virtual Network (VNet)
+Azure Load Balancer
+
+* Database Services:
+Azure SQL Database (relational database)
+Azure Cosmos DB (globally distributed NoSQL database)
+
+## How can we access Azure services?
+
+There are several ways to access and interact with Azure services, depending on your needs and preferences. Here are some common methods:
+
+* Azure Portal:
+The Azure Portal is a web-based user interface that provides a centralized dashboard for managing and monitoring Azure resources. You can use the portal to create, configure, and manage Azure services through a graphical interface.
+
+* Azure CLI (Command-Line Interface):
+Azure CLI is a command-line tool that allows you to manage Azure resources from a terminal or command prompt. It provides a set of commands for performing various tasks, such as creating VMs, managing storage, deploying applications, and more.
+
+* Azure PowerShell:
+Azure PowerShell is a scripting environment built on top of Windows PowerShell that enables you to automate and manage Azure resources using PowerShell cmdlets. It offers similar functionality to Azure CLI but with PowerShell syntax.
+
+* Azure Management Libraries:
+Azure Management Libraries are client libraries provided by Microsoft for popular programming languages like .NET, Java, Python, and Node.js. These libraries abstract the Azure REST API and provide higher-level constructs for managing Azure resources programmatically.
