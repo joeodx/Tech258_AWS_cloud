@@ -1,4 +1,4 @@
- # Deploy Database first
+ # Deploy Database first - click to view code
  ************************************
 #!/bin/bash
 
