@@ -1,5 +1,6 @@
  # Deploy Database first - click to view code
  ************************************
+``` 
 #!/bin/bash
 
 echo updating...
@@ -45,10 +46,11 @@ echo RESTART mONGOdB
 sudo systemctl restart mongod
 sudo systemctl enable mongod
 echo done!
+```
 
 # Then deploy app- make sure to change ip adress and configure settings
 
-
+```
 #!/bin/bash
 
 echo updating
@@ -108,3 +110,4 @@ echo done!
 echo start app
 sudo pm2 start app.js
 echo Done!
+```
