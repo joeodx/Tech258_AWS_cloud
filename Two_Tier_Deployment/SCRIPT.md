@@ -78,11 +78,11 @@ sudo apt install git -y
 echo done!
 
 echo get app
-git clone https://github.com/joeodx/Sparta_test_app2.git
+git clone https://github.com/joeodx/Sparta_test_app2.git repo
 echo done!
 
 echo cd app folder
-cd ~/Sparta_test_app2/app
+cd ~/repo/app
 echo done!
 
 echo install node js
