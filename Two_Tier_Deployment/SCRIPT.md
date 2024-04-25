@@ -18,7 +18,7 @@ echo done!
 echo Download the Mongodb GPG key
 curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
-   --dearmor
+   --dearmor --yes
 echo done!
 
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
@@ -79,6 +79,10 @@ echo done!
 
 echo get app
 git clone https://github.com/joeodx/Sparta_test_app2.git
+echo done!
+
+echo cd app folder
+cd ~/Sparta_test_app2/app
 echo done!
 
 echo install node js
