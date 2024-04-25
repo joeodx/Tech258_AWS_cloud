@@ -25,7 +25,13 @@
 * By spreading resources across multiple availability zones, Azure ensures that if one zone goes down due to a failure, the services and applications hosted in other zones remain unaffected. This design helps to minimize the risk of downtime and data loss.
 
 ## How is Azure structured?
-Azure is structured and organized into various services and categories, each designed to fulfill specific cloud computing needs. Here's an overview of the main organizational components of Azure:
+Azure provides four levels of management: management groups, subscriptions, resource groups, and resources. 
+![](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/scope-levels.png)
+
+* Management groups help you manage access, policy, and compliance for multiple subscriptions. All subscriptions in a management group automatically inherit the conditions that are applied to the management group.
+* Subscriptions logically associate user accounts with the resources that they create. Each subscription has limits or quotas on the amount of resources that it can create and use. Organizations can use subscriptions to manage costs and the resources that are created by users, teams, and projects.
+* Resource groups are logical containers where you can deploy and manage Azure resources like virtual machines, web apps, databases, and storage accounts.
+* Resources are instances of services that you can create in a resource group, such as virtual machines, storage, and SQL databases.
 
 ## What type of services does Azure provide?
 
