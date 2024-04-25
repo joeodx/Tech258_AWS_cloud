@@ -21,7 +21,7 @@
 
 ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/384721i3E9AD27F395754BC/image-size/original?v=v2&px=-1)
 
-* availability zones are unique physical locations within an Azure region, each made up of one or more data centers equipped with independent power, cooling, and networking. The purpose of availability zones is to provide resiliency and high availability for applications and data by distributing them across multiple zones within a region
+* Availability zones are unique physical locations within an Azure region, each made up of one or more data centers equipped with independent power, cooling, and networking. The purpose of availability zones is to provide resiliency and high availability for applications and data by distributing them across multiple zones within a region
 * By spreading resources across multiple availability zones, Azure ensures that if one zone goes down due to a failure, the services and applications hosted in other zones remain unaffected. This design helps to minimize the risk of downtime and data loss.
 
 ## How is Azure structured?
