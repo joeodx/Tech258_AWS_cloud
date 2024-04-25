@@ -99,12 +99,8 @@ export DB_HOST=mongodb://(replace with id)/posts
 printenv DB_HOST
 echo done!
 
-echo installing app 
-npm install
-echo done!
-
-echo install npm
-sudo npm install
+echo install npm cant have this and pm2 start its either one
+echo sudo npm install
 echo done!
 
 echo installing pm2
